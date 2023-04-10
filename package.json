@@ -1,0 +1,24 @@
+{
+  "name": "project-frontend",
+  "version": "1.0.0",
+  "description": "el project que se presentará será el 13 de mayo del 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanAdarico/project-frontend.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "esteban pime , juan , rodrigo , gianroy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EstebanAdarico/project-frontend/issues"
+  },
+  "homepage": "https://github.com/EstebanAdarico/project-frontend#readme"
+  
+
+}
