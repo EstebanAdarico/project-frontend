@@ -21,6 +21,7 @@ Los diseños se crearon con los siguientes anchos:
 
 ### Primary
 
+Dark red: hsl(0, 100%, 53%)
 Bright Red: hsl(12, 88%, 59%)
 Dark Blue: hsl(228, 39%, 23%)
 
