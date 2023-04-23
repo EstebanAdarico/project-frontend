@@ -1,0 +1,45 @@
+.logo-footer {
+  height: 100px;
+  width: 170px;
+}
+.logo-footer img {
+  height: 100%;
+  width: 100%;
+}
+footer {
+  background-image: url("../imagenes/footer-bakground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  border: solid 2px black;
+}
+.mb-4 mt-0 d-inline-block mx-auto {
+  width: 60px;
+  height: 2px;
+}
+.text-center p-3 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#footer-space-line {
+  width: 60px;
+  background-color: red;
+  height: 4px;
+}
+#inputName{
+  background-color: rgb(238, 232, 232);
+}
+#inputEmail{
+  background-color: rgb(238, 232, 232);
+}
+#text-subject{
+  background-color: rgb(238, 232, 232);
+}
+#btn-send-message{
+  padding: 10px 20px;
+  border-radius: 0%;
+}
+#text-message-write{
+  padding: 80px 10px;
+  background-color: rgb(238, 232, 232);
+}
+
