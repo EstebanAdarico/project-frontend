@@ -569,8 +569,8 @@ h6 {
 
 
 /*--------------------------------------------------------------
-  # Beneficios
-  --------------------------------------------------------------*/
+# Beneficios
+--------------------------------------------------------------*/
 .benefit {
     background: url("../imagenes/benefit-bg.jpg") center center;
     background-size: cover;
@@ -659,6 +659,17 @@ h6 {
     text-transform: uppercase;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+
+.title2 {
+    position: relative;
+    color: #555555;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 
 .benefit-sec-title h2 {
     position: relative;
@@ -803,8 +814,14 @@ h6 {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
 
-/****/
-main {
+/*--------------------------------------------------------------  
+# gianroy
+--------------------------------------------------------------*/
+.body {
+    background-color: #1e1e1e;
+}
+
+.main {
     max-width: 1440px;
     margin: auto;
 
@@ -826,6 +843,14 @@ main {
     margin-bottom: 45px;
 }
 
+.section-pay h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
 .cartilla-pago {
     padding: 20px;
     border: 1px solid rgb(255, 255, 255);
@@ -844,31 +869,45 @@ main {
 .pay-title>h4,
 .pay-title>h5 {
     text-align: start;
-    font-size: 25px
+    font-size: 25px;
+    color: black;
 }
 
 .pay-title>h4>.span {
     font-size: 15px;
+    color: black;
 }
 
 .pay-title {
-    border: 1px solid red;
+    background-color: #dc3545;
+    border-radius: 10px;
+}
+
+.titlec {
+    color: white;
+}
+
+.pay-titlec {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
 }
 
 .pay-body {
     margin: 30px 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .pay-body>h3 {
     text-align: justify;
-    font-size: 18px
+    font-size: 18px;
+    color: black;
 }
 
 .pay-btn {
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    height: 50px;
 }
 
 
@@ -889,27 +928,43 @@ main {
 
 .datos-title>h3 {
     font-size: 23px;
+    color: black;
 }
 
 .datos-title>h1 {
     font-size: 35px;
+    color: black;
 }
 
 .datos span {
     color: rgb(226, 36, 3);
+    color: black;
+}
+
+.datosc label {
+    color: rgb(226, 36, 3);
+    color: black;
 }
 
 .datos>p {
     font-size: 13px;
     color: rgb(134, 127, 127);
+    color: black;
 }
 
 .table-imc {
     position: relative;
+    color: black;
+
+}
+
+.tbody tr {
+    border: 1px solid black;
 }
 
 .table-imc>p {
     position: absolute;
+    color: black;
 }
 
 .resultado {
