@@ -804,3 +804,147 @@ h6 {
 }
 
 /****/
+main {
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+
+/* section pay */
+
+.section-pay {
+    max-width: 1440px;
+    height: 700px;
+    border: 1px solid #1e1e1e;
+    background-color: #ffffff;
+}
+
+.section-pay>div>h3 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+
+.cartilla-pago {
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+    border-radius: 15px;
+    transition: .3s;
+
+
+}
+
+.cartilla-pago:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.pay-title>h4,
+.pay-title>h5 {
+    text-align: start;
+    font-size: 25px
+}
+
+.pay-title>h4>.span {
+    font-size: 15px;
+}
+
+.pay-title {
+    border: 1px solid red;
+}
+
+.pay-body {
+    margin: 30px 0;
+    border: 1px solid red;
+}
+
+.pay-body>h3 {
+    text-align: justify;
+    font-size: 18px
+}
+
+.pay-btn {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+
+.Estandar,
+.Basico {
+    transform: scale(0.9);
+}
+
+
+/* section IMC */
+
+.section-imc {
+    max-width: 1440px;
+    height: 600px;
+    border: 1px solid #1e1e1e;
+    background-color: #ffffff;
+}
+
+.datos-title>h3 {
+    font-size: 23px;
+}
+
+.datos-title>h1 {
+    font-size: 35px;
+}
+
+.datos span {
+    color: rgb(226, 36, 3);
+}
+
+.datos>p {
+    font-size: 13px;
+    color: rgb(134, 127, 127);
+}
+
+.table-imc {
+    position: relative;
+}
+
+.table-imc>p {
+    position: absolute;
+}
+
+.resultado {
+    position: relative;
+    height: 350px;
+    /* border: 1px solid red; */
+}
+
+.resultado>i {
+    position: absolute;
+    right: 0;
+    display: none;
+    animation: flecha 1s infinite linear;
+}
+
+@keyframes flecha {
+    0% {
+        right: 0;
+    }
+
+    50% {
+        right: 10px;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+
+#resultadoIMC {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    color: rgb(120, 123, 126);
+}
