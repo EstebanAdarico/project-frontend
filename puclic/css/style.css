@@ -17,7 +17,12 @@ a:hover {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
@@ -238,7 +243,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover>a {
+.navbar a:hover,
+.navbar .active,
+.navbar li:hover>a {
     color: hsl(0, 100%, 53%);
     font-weight: 900;
 }
@@ -272,7 +279,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover>a {
     color: hsl(0, 100%, 53%);
 }
 
@@ -386,7 +395,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
 }
 
-.hero .btn-menu, .hero .btn-book {
+.hero .btn-menu,
+.hero .btn-book {
     font-weight: 600;
     font-size: 13px;
     letter-spacing: 0.5px;
@@ -400,7 +410,30 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid hsl(0, 100%, 53%);
 }
 
-.hero .btn-menu:hover, .hero .btn-book:hover {
+/* =========modificacion===== */
+.btns .btn-menu {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: white;
+    border: 2px solid hsl(0, 100%, 53%);
+}
+
+.btns .btn-menu:hover {
+    background: hsl(0, 100%, 53%);
+    color: #fff;
+}
+
+
+
+.hero .btn-menu:hover,
+.hero .btn-book:hover {
     background: hsl(0, 100%, 53%);
     color: #fff;
 
